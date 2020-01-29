@@ -21,7 +21,7 @@ spec:
         app: ecsdemo-crystal
     spec:
       containers:
-      - image: brentley/ecsdemo-crystal:latest
+      - image: 695292474035.dkr.ecr.us-east-1.amazonaws.com/nclouds-eks-crystal:latest
         imagePullPolicy: Always
         name: ecsdemo-crystal
         ports:

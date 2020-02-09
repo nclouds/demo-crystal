@@ -1,4 +1,4 @@
-@Library('shared-library')_
+@Library('shared-library@sharedpipeline)_
 sharedPipeline(
   EKS_PROD_CLUSTER: 'nclouds-eks-prod',
   EKS_DEV_CLUSTER: 'nclouds-eks-dev',
